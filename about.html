@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Alam-Tools</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Include Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- About Section -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h1 class="text-center mb-5">About Alam-Tools</h1>
+                
+                <div class="card shadow-sm mb-5">
+                    <div class="card-body p-4">
+                        <h2 class="h4 mb-4">Our Mission</h2>
+                        <p class="lead">
+                            Alam-Tools was created with a clear mission: to make education smarter, more engaging, and accessible for every learner. Founded by a passionate educator with a strong foundation in modern teaching tools, we blend traditional knowledge with cutting-edge AI technology to transform the way students learn and teachers teach.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mb-5">
+                    <div class="card-body p-4">
+                        <h2 class="h4 mb-4">Our Expertise</h2>
+                        <p>
+                            Backed by a solid background in MS-Office with AI tools and ChatGPT integration, and recognized as the Best Tutor for students from 6th to 12th grade, our founder brings both technical expertise and classroom excellence to the platform. Having completed SSC in 2024, they understand the current educational challenges faced by students and are committed to solving them with intelligent, easy-to-use solutions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mb-5">
+                    <div class="card-body p-4">
+                        <h2 class="h4 mb-4">What We Offer</h2>
+                        <p>Alam-Tools is an all-in-one educational platform designed to:</p>
+                        <ul class="list-unstyled">
+                            <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Summarize and generate content instantly with the help of AI.</li>
+                            <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Provide an interactive whiteboard with handwriting and shape recognition.</li>
+                            <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Support voice-to-text, spoken feedback, and AI-powered drawing correction.</li>
+                            <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Offer subject-specific AI tutors in Physics, Chemistry, and Math.</li>
+                            <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i>Enable seamless assignment creation and PDF exports for both students and teachers.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="h4 mb-4">Our Vision</h2>
+                        <p>
+                            At Alam-Tools, we believe education should be interactive, personalized, and future-ready. Whether you're a teacher looking for smart tools or a student aiming to achieve more, Alam-Tools is here to support your journey every step of the way.
+                        </p>
+                        <p class="mb-0">
+                            Join us as we reshape learning with technology that empowers, inspires, and adapts to every mind.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Load header and footer
+        fetch('components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            });
+
+        fetch('components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+</html> 

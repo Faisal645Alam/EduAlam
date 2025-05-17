@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alam-Tools - Free Online Tools Collection</title>
+    <meta name="description" content="Free online tools for developers, designers, and everyday users. Convert files, format code, generate content, and more.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header will be loaded here -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center py-5 bg-primary text-white">
+        <div class="container">
+            <h1 class="display-4 mb-4">Welcome to Alam-Tools</h1>
+            <p class="lead mb-4">Your one-stop destination for free online tools</p>
+            <div class="d-flex justify-content-center gap-3">
+                    <a href="#tools" class="btn btn-light btn-lg">Explore Tools</a>
+                <a href="about.html" class="btn btn-outline-light btn-lg">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section py-4 bg-light">
+        <div class="container">
+            <form id="searchForm" class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="text" id="toolSearch" class="form-control form-control-lg" placeholder="Search for tools...">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+            </div>
+    </section>
+
+    <!-- Category Navigation -->
+    <section class="category-nav py-3 bg-white border-bottom">
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-auto">
+                    <a href="#image-tools" class="btn btn-outline-primary">
+                        <i class="fas fa-image"></i> Image Tools
+                    </a>
+                            </div>
+                <div class="col-auto">
+                    <a href="#text-tools" class="btn btn-outline-primary">
+                        <i class="fas fa-font"></i> Text Tools
+                    </a>
+                        </div>
+                <div class="col-auto">
+                    <a href="#math-calculators" class="btn btn-outline-primary">
+                        <i class="fas fa-calculator"></i> Math & Calculators
+                    </a>
+                    </div>
+                <div class="col-auto">
+                    <a href="#converters" class="btn btn-outline-primary">
+                        <i class="fas fa-exchange-alt"></i> Converters
+                    </a>
+                            </div>
+                <div class="col-auto">
+                    <a href="#developer-tools" class="btn btn-outline-primary">
+                        <i class="fas fa-code"></i> Developer Tools
+                    </a>
+                        </div>
+                <div class="col-auto">
+                    <a href="#seo-tools" class="btn btn-outline-primary">
+                        <i class="fas fa-search"></i> SEO Tools
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="#social-media-tools" class="btn btn-outline-primary">
+                        <i class="fas fa-share-alt"></i> Social Media
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="#edu-tools" class="btn btn-outline-primary">
+                        <i class="fas fa-graduation-cap"></i> Education
+                    </a>
+            </div>
+                <div class="col-auto">
+                    <a href="#misc-tools" class="btn btn-outline-primary">
+                        <i class="fas fa-tools"></i> Miscellaneous
+                    </a>
+                </div>
+            </div>
+                            </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools-section py-5">
+        <div class="container">
+            <!-- Tools will be loaded here -->
+            <div id="tools-container">
+                <div class="text-center">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mt-2">Loading tools...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Why Choose Alam-Tools?</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                            <i class="fas fa-bolt text-primary fa-2x mb-3"></i>
+                            <h5 class="card-title">Fast & Efficient</h5>
+                            <p class="card-text">All tools are optimized for speed and performance.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                            <i class="fas fa-lock text-primary fa-2x mb-3"></i>
+                            <h5 class="card-title">Secure & Private</h5>
+                            <p class="card-text">Your data stays on your device, ensuring privacy.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body text-center">
+                            <i class="fas fa-sync text-primary fa-2x mb-3"></i>
+                            <h5 class="card-title">Always Updated</h5>
+                            <p class="card-text">Regular updates with new features and improvements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer will be loaded here -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+    <!-- Load Header and Footer -->
+    <script>
+        // Load header
+        fetch('components/header.html')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to load header');
+                }
+                return response.text();
+            })
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading header:', error);
+                document.getElementById('header-placeholder').innerHTML = '<div class="alert alert-danger">Failed to load header</div>';
+            });
+
+        // Load footer
+        fetch('components/footer.html')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to load footer');
+                }
+                return response.text();
+            })
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading footer:', error);
+                document.getElementById('footer-placeholder').innerHTML = '<div class="alert alert-danger">Failed to load footer</div>';
+            });
+
+        // Smooth scroll for category navigation
+        document.querySelectorAll('.category-nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Initialize tools when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load tools
+            if (typeof loadTools === 'function') {
+                loadTools();
+            }
+
+            // Setup search functionality
+            const searchForm = document.getElementById('searchForm');
+            const searchInput = document.getElementById('toolSearch');
+
+            if (searchForm && searchInput) {
+                searchForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const searchTerm = searchInput.value.toLowerCase().trim();
+                    if (searchTerm && typeof searchTools === 'function') {
+                        searchTools(searchTerm);
+                    }
+                });
+
+                searchInput.addEventListener('input', function() {
+                    const searchTerm = this.value.toLowerCase().trim();
+                    if (searchTerm && typeof searchTools === 'function') {
+                        searchTools(searchTerm);
+                    } else if (typeof loadTools === 'function') {
+                        loadTools(); // Reset to show all tools
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html> 
